@@ -8,6 +8,8 @@ header{
 }
 .logo{
   display: inline-block;
+}
+.title{
   color: MediumAquamarine;
 }
 nav{
