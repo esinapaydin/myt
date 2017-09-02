@@ -1,22 +1,24 @@
 header{
-  display: flex;
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
-  color: black;
-  justify-content: flex-end;
-  display: inline-block;
+  display: flex;
+  align-items: center;
+  width:100%;
 }
 .logo{
+  display:flex;
+  align-items: center;
+}
+.logo span{
+  color:MediumAquamarine;
+}
+nav span{
   display: inline-block;
 }
-.title{
-  color: MediumAquamarine;
+a{
+  color:black;
 }
 nav{
-  display: inline-block;
-  justify-content: flex-end;
-}
-.container{
-  display: flex;
+  display:block;
 }
