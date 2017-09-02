@@ -11,6 +11,7 @@ header{
   display:flex;
   align-items: center;
   flex-grow: 1;
+  padding-left:30px;
 }
 .logo span{
   color:MediumAquamarine;
@@ -20,6 +21,7 @@ nav span{
 }
 a{
   color:black;
+  padding-right: 40px;
 }
 nav{
   display:block;
