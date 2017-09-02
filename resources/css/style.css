@@ -4,6 +4,7 @@ header{
   font-size: 14px;
   font-weight: bold;
   justify-content: flex-end;
+  display: inline-block;
 }
 .logo{
   display: flex;
