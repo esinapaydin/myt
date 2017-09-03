@@ -104,6 +104,8 @@ h2{
   color:dimgray;
   padding: 11px 20px;
   display:block;
+  font-family: Verdana;
+  font-size: 12px;
 }
 .news-bites{
   font-family: Georgia;
@@ -122,4 +124,8 @@ h2{
   display: flex;
      justify-content: space-between;
 }
-
+h3{
+   font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+}
