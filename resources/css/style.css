@@ -16,6 +16,7 @@ header{
 }
 .logo span{
   color:MediumAquamarine;
+  padding-left: 15px;
 }
 nav span{
   display: inline-block;
