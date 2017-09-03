@@ -5,6 +5,7 @@ header{
   display: flex;
   align-items: center;
   width:100%;
+  flex-grow: 1;
   border-bottom: 1px solid black;
   height: 80px;
 }
@@ -12,7 +13,6 @@ header{
   display:flex;
   align-items: center;
   flex-grow: 1;
-  padding-left:30px;
 }
 .logo span{
   color:MediumAquamarine;
@@ -22,8 +22,44 @@ nav span{
 }
 a{
   color:black;
-  padding-right: 40px;
 }
 nav{
   display:block;
 }
+.large{
+  border: 2px solid black;
+  margin-top: 5px;
+  display: block;
+  width: 630px;
+}
+.lead-story{
+  border: 3px solid black;
+}
+.image-content{
+  border-bottom: 1px solid black;
+}
+.narrative{
+}
+.medium{
+  border: 2px solid black;
+  display: block;
+  width: 300px;
+  margin-top: 5px;
+}
+.content{
+  display: flex;
+}
+.story{
+  border: 2px solid black;
+}
+.image-content2{
+  border: 1px solid black;
+}
+.image-content3{
+  border: 1px solid black;
+}
+
+
+
+
+
