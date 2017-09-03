@@ -129,5 +129,45 @@ h3{
   font-weight: bold;
   text-align: center;
 }
+footer{
+  background-color: MediumAquamarine;
+  margin: auto;
+  font-family: Verdana;
+  font-size: 12px;
+  display:flex;
+  height:325px;
+  margin-top:40px;
+  align-items:center;
+  justify-content: center;
+  flex-direction: column;
+  width:100%;
+}
+.footertitle{
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  padding-right:35px;
+  border-right: 2px solid white;
+  display: inline-block;
+}
 
-
+.info{
+display: inline-block;
+  padding-left: 35px;
+  
+}
+nav span{
+  display:inline-block;
+  padding:20px 10px;
+  
+}
+.footernav{
+  display:inline-block;
+  margin: auto;
+  font-family: Verdana;
+  font-size: 12px;
+  padding-left:25px;
+  justify-content:spance-between;
+  
+}
