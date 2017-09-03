@@ -31,6 +31,7 @@ nav{
   margin-top: 5px;
   display: block;
   width: 630px;
+  margin-right: 35px;
 }
 .lead-story{
   border: 3px solid black;
@@ -45,6 +46,7 @@ nav{
   display: block;
   width: 300px;
   margin-top: 5px;
+  margin-right: 35px;
 }
 .content{
   display: flex;
@@ -57,6 +59,19 @@ nav{
 }
 .image-content3{
   border: 1px solid black;
+}
+.image-content4{
+  border: 1px solid black;
+}
+.small{
+  width: 240px;
+  border: 3px solid black;
+  display: block;
+  margin-top:5px;
+  margin-right:35px;
+}
+.cookie{
+
 }
 
 
