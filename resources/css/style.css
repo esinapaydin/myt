@@ -16,7 +16,7 @@ header{
 }
 .logo span{
   color:MediumAquamarine;
-  padding-left: 15px;
+  padding-left:15px;
 }
 nav span{
   display: inline-block;
@@ -92,25 +92,28 @@ h2{
 }
 .small{
   width: 240px;
-
+  flex-direction: column;
   display: block;
   margin-top:5px;
   margin-right:35px;
 }
-.cookie{
-
+.bite{
+  border-bottom: 1px solid black;
+  flex-direction: column;
+  background-color:whitesmoke;
+  color:dimgray;
+  padding: 11px 20px;
+  display:block;
 }
 .news-bites{
-
   font-family: Georgia;
   font-size: 17px;
   color: black;
+  flex-direction: column;
 }
-
 .text-content{
   height:250px;
 }
-
 .story{
   flex-direction: column;
   display: flex;
@@ -119,7 +122,4 @@ h2{
   display: flex;
      justify-content: space-between;
 }
-
-
-
 
