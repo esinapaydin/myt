@@ -27,17 +27,12 @@ nav{
   display:block;
 }
 .large{
-  border: 2px solid black;
   margin-top: 5px;
   display: block;
   width: 630px;
   margin-right: 35px;
 }
-.lead-story{
-  border: 3px solid black;
-}
 .image-content{
-  border-bottom: 1px solid black;
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png);
    height:300px;
    font-family: Georgia;
@@ -46,9 +41,15 @@ nav{
   color: white;
 }
 .narrative{
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+h2{
+  font-family: Georgia;
+  color: black;
 }
 .medium{
-  border: 2px solid black;
   display: block;
   width: 300px;
   margin-top: 5px;
@@ -57,11 +58,8 @@ nav{
 .content{
   display: flex;
 }
-.story{
-  border: 2px solid black;
-}
+
 .image-content2{
-  border: 1px solid black;
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png);  
   height: 300px;
   font-family: Georgia;
@@ -70,7 +68,6 @@ nav{
   color: white;
 }
 .image-content3{
-  border: 1px solid black;
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png);
   height:300px;
   font-family: Georgia;
@@ -79,7 +76,6 @@ nav{
   color: white;
 }
 .image-content4{
-  border: 1px solid black;
   background-image:url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-1.png);
   height:300px;
   font-family: Georgia;
@@ -89,7 +85,7 @@ nav{
 }
 .small{
   width: 240px;
-  border: 3px solid black;
+
   display: block;
   margin-top:5px;
   margin-right:35px;
@@ -98,9 +94,21 @@ nav{
 
 }
 .news-bites{
-  border: 1px solid black;
+
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
 }
 
+.story{
+  flex-direction: column;
+  display: flex;
+  justify-content: space-between;
+}
+.stories{
+  display: flex;
+  justify-content: space-around;
+}
 
 
 
